@@ -12,6 +12,6 @@ const requestScopedProvider = {
     AppService,
     requestScopedProvider,
   ],
-  exports: [requestScopedProvider]
+  exports: [AppService, requestScopedProvider]
 })
 export class AppModule {}
